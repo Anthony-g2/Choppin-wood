@@ -16,6 +16,7 @@ body {
   height: 60px;
   padding: 10px;
   font-size: 15px;
+  vertical-align: top;
 }
 button:hover {
   background-color: darkGrey;
@@ -62,7 +63,7 @@ button:hover {
   height: 60px;
   border: 1px solid black;
 }
-.lumJack1 {
+.lumJack2 {
   transform: scale(-.1, .1);
   position: absolute;
   top: -115px;
