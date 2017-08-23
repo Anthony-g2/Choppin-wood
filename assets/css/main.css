@@ -17,6 +17,9 @@ body {
   padding: 10px;
   font-size: 15px;
 }
+button:hover {
+  background-color: darkGrey;
+}
 /* Questions */
 .box1 {
   margin-top: 50px;
