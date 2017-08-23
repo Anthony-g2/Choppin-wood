@@ -118,7 +118,7 @@ let keyPress2 = 0;
         });
         keyPress++;
       };
-      if (keyPress === 10){
+      if (keyPress === 9){
         $('.minigame').css({
         'display':'none'
         });
