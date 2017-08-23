@@ -11,62 +11,109 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- scripts -->
     <script type="text/javascript" src="assets/js/app.js"></script>
-
+    <!-- Title -->
     <title>Choppin Wood</title>
   </head>
   <body>
+    <!-- Title Page -->
     <div class="box loading-page container">
         <h1> Choppin' Wood </h1>
         <h3> (An Adventure Game) </h3>
         <button type="button" name="start" class="butt start">Ready?</button>
     </div>
-    <div class="box1 question1 container">
-        <h1> What you choppin wood with? </h1>
-        <button type="button" class="butt q1 q1a">Axe</button>
-        <button type="button" class="butt q1 q1b">Chainsaw</button>
+    <!-- Question 1 -->
+    <div class="que1">
+      <div class="box1 question1 container ">
+          <h1> What you choppin wood with? </h1>
+          <button type="button" class="butt q1 q1a">Axe</button>
+          <button type="button" class="butt q1 q1b">Chainsaw</button>
+      </div>
+      <div class="box2 conceq1a container">
+        <h3> You grab the axe and step outside.</h3>
+        <button type="button" name="continue" class="butt1 cont1a">Continue</button>
+      </div>
+      <div class="box2 conceq1b container">
+        <h3> You grab the chainsaw and step outside.</h3>
+        <button type="button" name="continue" class="butt1 cont1b">Continue</button>
+      </div>
+      <div class="box2 conceq1ba container">
+        <h3> You slip in a puddle and die. </h3>
+        <button type="button" name="gOver" class="butt1 gOver">Game Over</button>
+      </div>
     </div>
-    <div class="box2 conceq1 container hidden">
-
-    </div>
+    <!-- Minigame -->
     <div class="minigame">
       <div class="game question2 container">
         <img src="https://vignette2.wikia.nocookie.net/runescape2/images/b/bc/Lumberjack_Leif.png/revision/latest?cb=20141204202329" alt="lumbajaq" class="lumJack">
+        <img src="http://www.davesgames.net/papercraft/png/gallery-cabin-01.png" alt="cabin" class="cabin">
       </div>
       <div class="desc question2 container">
         <h3> Use the left arrow key to move </h3>
       </div>
+      <div class="box2 conceq1ba container">
+        <h3> You've reached the tree </h1>
+        <button type="button" name="continue" class="butt1 cont2">Continue</button>
+      </div>
     </div>
+    <!-- Question 3 -->
     <div class="box1 question3 container">
       <h1> Are you wearing gloves? </h1>
       <button type="button" class="butt q3 q3a">Yup</button>
       <button type="button" class="butt q3 q3b">Nope</button>
     </div>
-    <div class="box1 question3a container">
+    <div class="box2 conceq3b container">
+      <h3> You get a splinter which leads to infection and your death </h3>
+      <button type="button" name="gOver" class="butt1 gOver">Game Over</button>
+    </div>
+    <div class="box3 question3a container ">
       <h1> Are you sure...? </h1>
       <button type="button" class="butt q3a q3aa">Umm...yes</button>
       <button type="button" class="butt q3a q3ab">Maybe not</button>
     </div>
     <div class="box2 conceq3a container">
-
+      <h3> Good choice... </h3>
+      <button type="button" name="continue" class="butt1 cont4">Continue</button>
     </div>
+    <!-- Question 4 -->
     <div class="box1 question4 container">
-      <h1> There's a gem in the tree! </h1>
-      <button type="button" class="butt q4 q4a">Pick it up</button>
+      <h1> There's a powerful looking gem embedded in the tree </h1>
+      <button type="button" class="butt q4 q4a">Pull it out</button>
       <button type="button" class="butt q4 q4b">Keep choppin'</button>
     </div>
-    <div class="box2 conceq4 container">
-
+    <div class="box2 conceq4a container">
     </div>
-    <div class="box2 conceq3a container">
-
+    <div class="box2 conceq4b container">
     </div>
-    <div class="box1 question5 container">
-
+    <!-- Question 5 -->
+    <div class="que5">
+      <div class="box1 question5 container">
+        <h1> A gang of angry tree gnomes begin attacking </h1>
+        <button type="button" class="butt q5 q5a">Fight</button>
+        <button type="button" class="butt q5 q5b">Diplomacy</button>
+      </div>
+      <div class="box2 conceq5a container">
+      </div>
+      <div class="box2 conceq5b container">
+      </div>
     </div>
-    <div class="box2 conceq5 container">
-
+    <!-- Question 6 -->
+    <div class="box1 finish1 container">
+      <h1> Congrats, now collect your tree and head home </h1>
+      <button type="button" name="button" class="butt f1">Collect tree</button>
     </div>
-    <div class="box1 finish container">
+    <!-- Final Minigame -->
+    <div class="minigame2">
+      <div class="game finish2 container">
+        <img src="https://vignette2.wikia.nocookie.net/runescape2/images/b/bc/Lumberjack_Leif.png/revision/latest?cb=20141204202329" alt="lumbajaq" class="lumJack1">
+        <img src="http://www.davesgames.net/papercraft/png/gallery-cabin-01.png" alt="cabin" class="cabin1">
+      </div>
+      <div class="desc finish2 container">
+        <h3> Use the right arrow key to move </h3>
+      </div>
+      <div class="box conceqF container">
+        <h1> You died of exhaustion </h1>
+        <button type="button" name= "end" class="butt gOver"> Game Over </button>
+      </div>
 
     </div>
   </body>
